@@ -1,0 +1,52 @@
+{
+  "Name": "UI Recolorizer",
+  "Author": "Danehan",
+  "Version": "0.0.2",
+  "Description": "A simple automatic recolor mod for UI compatibility. May add more mod compatibility later.",
+  "UniqueID": "Danehan.UIRecolorizer",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "2.5.1"
+  },
+  "Dependencies":[
+    //Patching
+    {
+      "UniqueID": "cat.modupdatemenu",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "spacechase0.GenericModConfigMenu",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "shekurika.EventLookup",
+      "IsRequired": false
+    },
+    //Recolors
+    {
+      "UniqueID": "MissAnaira.StarrySkyInterface1.6",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "DaisyNiko.EarthyInterface",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "ManaKirel.VintageInterface2",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "Bos.UIInterface",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "Maraluna.OvergrownFloweryInterface",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "HReenna.MagicalValleyInterface",
+      "IsRequired": false
+    }
+  ]
+}

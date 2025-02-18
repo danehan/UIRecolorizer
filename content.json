@@ -1,0 +1,525 @@
+{
+  "Format": "2.5.1",
+  "Changes": [
+    //Animal Husbandry
+    {
+      "Action": "EditImage",
+      "Target": "Mods/DIGUS.ANIMALHUSBANDRYMOD/tools/MenuTiles",
+      "FromFile": "assets/AnimalHusbandry/MenuTiles.png",
+      "When": {
+        "HasMod": "DIGUS.ANIMALHUSBANDRYMOD"
+      }
+    },
+    //Calender Crops
+    {
+      "Action": "EditImage",
+      "Target": "Mods/IanAkari.CalendarCrops/assets/Billboardspring",
+      "FromFile": "assets/CalendarCrops/Billboardspring.png",
+      "When": {
+        "HasMod": "IanAkari.CalendarCrops"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/IanAkari.CalendarCrops/assets/Billboardsummer",
+      "FromFile": "assets/CalendarCrops/Billboardsummer.png",
+      "When": {
+        "HasMod": "IanAkari.CalendarCrops"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/IanAkari.CalendarCrops/assets/Billboardfall",
+      "FromFile": "assets/CalendarCrops/Billboardfall.png",
+      "When": {
+        "HasMod": "IanAkari.CalendarCrops"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/IanAkari.CalendarCrops/assets/Billboardwinter",
+      "FromFile": "assets/CalendarCrops/Billboardwinter.png",
+      "When": {
+        "HasMod": "IanAkari.CalendarCrops"
+      }
+    },
+    //Crafting Collection
+    {
+      "Action": "EditImage",
+      "Target": "Mods/Gurm0.CraftingCollection/assets/LooseSprites/CraftCursor",
+      "FromFile": "assets/CraftingCollection/CraftCursor.png",
+      "When": {
+        "HasMod": "Gurm0.CraftingCollection"
+      }
+    },
+    //Customize Dresser
+    {
+      "Action": "EditImage",
+      "Target": "Mods/Dragoon23.CustomizeDresser/Stardew_Dresser_Icons",
+      "FromFile": "assets/CustomizeDresser/Stardew_Dresser_Icons.png",
+      "When": {
+        "HasMod": "Dragoon23.CustomizeDresser"
+      }
+    },
+    //Deluxe Journal
+    {
+      "Action": "EditImage",
+      "Target": "Mods/MolsonCAD.DeluxeJournal/assets/ui",
+      "FromFile": "assets/DeluxeJournal/ui.png",
+      "When": {
+        "HasMod": "MolsonCAD.DeluxeJournal"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/MolsonCAD.DeluxeJournal/assets/animal-icons",
+      "FromFile": "assets/DeluxeJournal/animal-icons.png",
+      "When": {
+        "HasMod": "MolsonCAD.DeluxeJournal"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/MolsonCAD.DeluxeJournal/assets/building-icons",
+      "FromFile": "assets/DeluxeJournal/building-icons.png",
+      "When": {
+        "HasMod": "MolsonCAD.DeluxeJournal"
+      }
+    },
+    //EventLookup
+    {
+      "Action": "EditImage",
+      "Target": "Mods/shekurika.EventLookup/button",
+      "FromFile": "assets/EventLookup/button.png",
+      "When": {
+          "HasMod": "shekurika.EventLookup"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/shekurika.EventLookup/statusCover",
+      "FromFile": "assets/EventLookup/statusCover.png",
+      "When": {
+          "HasMod": "shekurika.EventLookup"
+      }
+    },
+    //FashionSense
+    {
+      "Action": "EditImage",
+      "Target": "Mods/PeacefulEnd.FashionSense/Framework/Assets/HandMirror",
+      "FromFile": "assets/FashionSense/HandMirror.png",
+      "When": {
+        "HasMod": "PeacefulEnd.FashionSense"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/PeacefulEnd.FashionSense/Framework/Assets/UI/AccessoryButton",
+      "FromFile": "assets/FashionSense/AccessoryButton.png",
+      "When": {
+        "HasMod": "PeacefulEnd.FashionSense"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/PeacefulEnd.FashionSense/Framework/Assets/UI/BodyButton",
+      "FromFile": "assets/FashionSense/BodyButton.png",
+      "When": {
+        "HasMod": "PeacefulEnd.FashionSense"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/PeacefulEnd.FashionSense/Framework/Assets/UI/ExportButton",
+      "FromFile": "assets/FashionSense/ExportButton.png",
+      "When": {
+        "HasMod": "PeacefulEnd.FashionSense"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/PeacefulEnd.FashionSense/Framework/Assets/UI/HairButton",
+      "FromFile": "assets/FashionSense/HairButton.png",
+      "When": {
+        "HasMod": "PeacefulEnd.FashionSense"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/PeacefulEnd.FashionSense/Framework/Assets/UI/HatButton",
+      "FromFile": "assets/FashionSense/HatButton.png",
+      "When": {
+        "HasMod": "PeacefulEnd.FashionSense"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/PeacefulEnd.FashionSense/Framework/Assets/UI/OptionOneButton",
+      "FromFile": "assets/FashionSense/OptionOneButton.png",
+      "When": {
+        "HasMod": "PeacefulEnd.FashionSense"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/PeacefulEnd.FashionSense/Framework/Assets/UI/OptionTwoButton",
+      "FromFile": "assets/FashionSense/OptionTwoButton.png",
+      "When": {
+        "HasMod": "PeacefulEnd.FashionSense"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/PeacefulEnd.FashionSense/Framework/Assets/UI/OptionThreeButton",
+      "FromFile": "assets/FashionSense/OptionThreeButton.png",
+      "When": {
+        "HasMod": "PeacefulEnd.FashionSense"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/PeacefulEnd.FashionSense/Framework/Assets/UI/PantsButton",
+      "FromFile": "assets/FashionSense/PantsButton.png",
+      "When": {
+        "HasMod": "PeacefulEnd.FashionSense"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/PeacefulEnd.FashionSense/Framework/Assets/UI/ShirtButton",
+      "FromFile": "assets/FashionSense/ShirtButton.png",
+      "When": {
+        "HasMod": "PeacefulEnd.FashionSense"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/PeacefulEnd.FashionSense/Framework/Assets/UI/ShoesButton",
+      "FromFile": "assets/FashionSense/ShoesButton.png",
+      "When": {
+        "HasMod": "PeacefulEnd.FashionSense"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/PeacefulEnd.FashionSense/Framework/Assets/UI/SleevesButton",
+      "FromFile": "assets/FashionSense/SleevesButton.png",
+      "When": {
+        "HasMod": "PeacefulEnd.FashionSense"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/PeacefulEnd.FashionSense/Framework/Assets/UI/SleevesShoesButton",
+      "FromFile": "assets/FashionSense/SleevesShoesButton.png",
+      "When": {
+        "HasMod": "PeacefulEnd.FashionSense"
+      }
+    },
+    //Ferngill Simple Economy
+    {
+      "Action": "EditImage",
+      "Target": "Mods/paulsteele.fse/assets/stock-menu",
+      "FromFile": "assets/FSE/stock-menu.png",
+      "When": {
+        "HasMod": "paulsteele.fse"
+      }
+    },
+    //FontSettings
+    {
+      "Action": "EditImage",
+      "Target": "Mods/Becks723.FontSettings/assets/delete",
+      "FromFile": "assets/FontSettings/delete.png",
+      "When": {
+        "HasMod": "Becks723.FontSettings"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/Becks723.FontSettings/assets/export",
+      "FromFile": "assets/FontSettings/export.png",
+      "When": {
+        "HasMod": "Becks723.FontSettings"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/Becks723.FontSettings/assets/font-button",
+      "FromFile": "assets/FontSettings/font-button.png",
+      "When": {
+        "HasMod": "Becks723.FontSettings"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/Becks723.FontSettings/assets/font-preview-compare",
+      "FromFile": "assets/FontSettings/font-preview-compare.png",
+      "When": {
+        "HasMod": "Becks723.FontSettings"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/Becks723.FontSettings/assets/font-preview-normal",
+      "FromFile": "assets/FontSettings/font-preview-normal.png",
+      "When": {
+        "HasMod": "Becks723.FontSettings"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/Becks723.FontSettings/assets/font-tab",
+      "FromFile": "assets/FontSettings/font-tab.png",
+      "When": {
+        "HasMod": "Becks723.FontSettings"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/Becks723.FontSettings/assets/icon-for-toolbar-icons",
+      "FromFile": "assets/FontSettings/icon-for-toolbar-icons.png",
+      "When": {
+        "HasMod": "Becks723.FontSettings"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/Becks723.FontSettings/assets/refresh",
+      "FromFile": "assets/FontSettings/refresh.png",
+      "When": {
+        "HasMod": "Becks723.FontSettings"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/Becks723.FontSettings/assets/save",
+      "FromFile": "assets/FontSettings/save.png",
+      "When": {
+        "HasMod": "Becks723.FontSettings"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/Becks723.FontSettings/assets/section-box",
+      "FromFile": "assets/FontSettings/section-box.png",
+      "When": {
+        "HasMod": "Becks723.FontSettings"
+      }
+    },
+    //GMCM
+    {
+      "Action": "EditImage",
+      "Target": "Mods/spacechase0.GenericModConfigMenu/assets/config-button",
+      "FromFile": "assets/GMCM/config-button.png",
+      "When": {
+        "HasMod": "spacechase0.GenericModConfigMenu"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/spacechase0.GenericModConfigMenu/assets/keybindings-button",
+      "FromFile": "assets/GMCM/keybindings-button.png",
+      "When": {
+        "HasMod": "spacechase0.GenericModConfigMenu"
+      }
+    },
+    //Happy Birthday
+    {
+      "Action": "EditImage",
+      "Target": "Mods/Omegasis.HappyBirthday/ModAssets/Graphics/lastPageButton",
+      "FromFile": "assets/HappyBirthday/lastPageButton.png",
+      "When": {
+        "HasMod": "Omegasis.HappyBirthday"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/Omegasis.HappyBirthday/ModAssets/Graphics/nextPageButton",
+      "FromFile": "assets/HappyBirthday/nextPageButton.png",
+      "When": {
+        "HasMod": "Omegasis.HappyBirthday"
+      }
+    },
+    //Iconic Framework
+    {
+      "Action": "EditImage",
+      "Target": "Mods/furyx639.ToolbarIcons/assets/arrows",
+      "FromFile": "assets/ToolbarIcons/arrows.png",
+      "When": {
+        "HasMod": "furyx639.ToolbarIcons"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/furyx639.ToolbarIcons/assets/icons",
+      "FromFile": "assets/ToolbarIcons/icons.png",
+      "When": {
+        "HasMod": "furyx639.ToolbarIcons"
+      }
+    },
+    //Location Compass
+    {
+      "Action": "EditImage",
+      "Target": "Mods/Bouhm.LocationCompass/assets/locator",
+      "FromFile": "assets/LocationCompass/locator.png",
+      "When": {
+        "HasMod": "Bouhm.LocationCompass"
+      }
+    },
+    //Love of Cooking NEEDS Artwork
+    {
+      "Action": "EditImage",
+      "Target": "Mods/blueberry.LoveOfCooking.CP/assets/cookbook-sprites",
+      "FromFile": "assets/LoveOfCooking/cookbook-sprites.png",
+      "When": {
+        "HasMod": "blueberry.LoveOfCooking.CP"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/blueberry.LoveOfCooking.CP/assets/mod-sprites",
+      "FromFile": "assets/LoveOfCooking/mod-sprites.png",
+      "When": {
+        "HasMod": "blueberry.LoveOfCooking.CP"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/blueberry.LoveOfCooking.CP/assets/object-sprites",
+      "FromFile": "assets/LoveOfCooking/object-sprites.png",
+      "When": {
+        "HasMod": "blueberry.LoveOfCooking.CP"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/blueberry.LoveOfCooking.CP/assets/tool-sprites",
+      "FromFile": "assets/LoveOfCooking/tool-sprites.png",
+      "When": {
+        "HasMod": "blueberry.LoveOfCooking.CP"
+      }
+    },
+    //Mana Bar
+    {
+      "Action": "EditImage",
+      "Target": "Mods/spacechase0.ManaBar/assets/manabg",
+      "FromFile": "assets/ManaBar/manabg.png",
+      "When": {
+        "HasMod": "spacechase0.ManaBar"
+      }
+    },
+    //ModUpdateMenu
+    {
+      "Action": "EditImage",
+      "Target": "Mods/cat.modupdatemenu/assets/updateButton",
+      "FromFile": "assets/ModUpdateMenu/updateButton.png",
+      "When": {
+        "HasMod": "cat.modupdatemenu"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/cat.modupdatemenu/assets/keybindings-button",
+      "FromFile": "assets/ModUpdateMenu/keybindings-button.png",
+      "When": {
+        "HasMod": "cat.modupdatemenu"
+      }
+    },
+    //Quality Smash
+    {
+      "Action": "EditImage",
+      "Target": "Mods/NormanPCN.QualitySmash/assets/buttonColor",
+      "FromFile": "assets/QualitySmash/buttonColor.png",
+      "When": {
+        "HasMod": "NormanPCN.QualitySmash"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/NormanPCN.QualitySmash/assets/buttonQuality",
+      "FromFile": "assets/QualitySmash/buttonQuality.png",
+      "When": {
+        "HasMod": "NormanPCN.QualitySmash"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/NormanPCN.QualitySmash/assets/buttonUndo",
+      "FromFile": "assets/QualitySmash/buttonUndo.png",
+      "When": {
+        "HasMod": "NormanPCN.QualitySmash"
+      }
+    },
+    //Remote Fridge Storage
+    {
+      "Action": "EditImage",
+      "Target": "Mods/EternalSoap.RemoteFridgeStorage/assets/fridge",
+      "FromFile": "assets/RemoteFridgeStorage/fridge.png",
+      "When": {
+        "HasMod": "EternalSoap.RemoteFridgeStorage"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/EternalSoap.RemoteFridgeStorage/assets/fridge2",
+      "FromFile": "assets/RemoteFridgeStorage/fridge2.png",
+      "When": {
+        "HasMod": "EternalSoap.RemoteFridgeStorage"
+      }
+    },
+    //Smart Building
+    {
+      "Action": "EditImage",
+      "Target": "Mods/DecidedlyHuman.SmartBuilding/assets/Buttons",
+      "FromFile": "assets/SmartBuilding/Buttons.png",
+      "When": {
+        "HasMod": "DecidedlyHuman.SmartBuilding"
+      }
+    },
+    //Stardew and Chill
+    {
+      "Action": "EditImage",
+      "Target": "Mods/mod.kitchen.stardewandchill/button",
+      "FromFile": "assets/stardewandchill/button.png",
+      "When": {
+        "HasMod": "mod.kitchen.stardewandchill"
+      }
+    },
+    //Sword and Sorcery NEEDS Rework
+    {
+      "Action": "EditImage",
+      "Target": "Mods//assets/",
+      "FromFile": "assets//",
+      "When": {
+        "HasMod": ""
+      }
+    },
+    //Ukrainian
+    {
+      "Action": "EditImage",
+      "Target": "Mods/Pereclaw.ukrainizacija/assets/Button",
+      "FromFile": "assets/Ukrainian/Button.png",
+      "When": {
+        "HasMod": "Pereclaw.ukrainizacija"
+      }
+    },
+    //Virtual Keyboard
+    {
+      "Action": "EditImage",
+      "Target": "Mods/DoubleZ.VirtualKeyboard/assets/toggleButton",
+      "FromFile": "assets/VirtualKeyboard/toggleButton.png",
+      "When": {
+        "HasMod": "DoubleZ.VirtualKeyboard"
+      }
+    },
+    //Walk of Life Rebirth NEEDS WORK
+    {
+      "Action": "EditImage",
+      "Target": "Mods/DaLion.Professions/assets/sprites/",
+      "FromFile": "",
+      "When": {
+        "HasMod": "DaLion.Professions"
+      }
+    }
+  ]
+}
